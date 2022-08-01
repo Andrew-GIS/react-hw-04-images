@@ -1,0 +1,20 @@
+.Conteiner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	margin: 20px auto 20px auto;
+}
+
+.Overlay{
+	position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba(0, 0, 0, 0.2);
+		z-index: 2;
+}
